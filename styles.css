@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.page-container {
+    background-color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.header-content {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    max-width: 300px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+img.logo {
+    margin-left: 180px;
+}
+
+
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(41, 130, 182);
+    border-radius: 10px;
+    border-width: 1px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: white;
+    color:  rgb(41, 130, 182);
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+button:active {
+    background-color: rgb(41, 130, 182); 
+    color: whitesmoke; 
+    transform: translateY(2px); 
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+ul {
+    display: flex;
+    list-style: none; 
+    gap: 15px;
+    margin-right: 220px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 213px;
+    color: #F9FAF8;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Bangers', system-ui;
+}
+
+p {
+    font-size: 18px;
+    color:  #E5E7EB;
+}
+
+a:hover {
+    color: aqua;
+    transition: 0.05;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap; /* Wrap images if they exceed the container */
+    gap: 30px;
+    justify-content: center; 
+  
+}
+
+.boots {
+    display: flex;
+    width: 280px;
+    height: auto;
+}
+
+.boots  {
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.boots:hover {
+    transform: translateY(-15px);
+    cursor: pointer; /* Move images up 5 pixels on hover */
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 30px;
+    gap: 50px;
+
+}
+
+h4 {
+    gap: 50px;
+}
+
