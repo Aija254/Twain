@@ -154,6 +154,7 @@ a:hover {
     display: flex;
     color: #1F2937;
     justify-content: space-evenly;
+    padding: 50px;
 }
 
 .review {
@@ -164,3 +165,40 @@ a:hover {
     color: #1F2937;
 }
 
+.action-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width:900px;
+    border-radius: 10px;
+}
+
+.action-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #3882F6;
+        border-radius: 10px;
+        border-width: 0.5px;
+        color: whitesmoke;
+        border-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
